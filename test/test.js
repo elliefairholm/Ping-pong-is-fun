@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 require('chai').should();
 
-const service = require('./index');
+const service = require('../index');
 
 describe('Service', () => {
   it('should return a string', () => {
