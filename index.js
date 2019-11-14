@@ -13,7 +13,27 @@
 
 
 const service = (score) => {
-  // code goes here
+  const [firstScore, secondScore] = score.split(':').map(function(el) {
+    return parseInt(el);
+  });
+  const total = firstScore + secondScore;
+  if((firstScore >= 21 || secondScore >= 21) && Math.abs(firstScore - secondScore) >= 2) {
+    return 'finished';
+  } else if (total < 40) {
+    if (Math.floor(total/5) % 2 === 1) {
+    return 'second';
+  } else {
+    return 'first';
+  }
+} else if (total >= 40) {
+  if (Math.floor(total/2) % 2 === 1) {
+    return 'second';
+  } else {
+    return 'first';
+  }
+}
 };
+
+console.log(9/5 % 2);
 
 module.exports = service;
