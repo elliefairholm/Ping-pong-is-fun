@@ -1,4 +1,4 @@
-# ALGO-RITHMS CHALLENGE // [YOUR ALGORITHM NAME GOES HERE]
+# ALGO-RITHMS CHALLENGE // PING PONG IS FUN
 
 - [1. Getting started](#1-getting-started)
 - [2. Challenge](#2-challenge)
