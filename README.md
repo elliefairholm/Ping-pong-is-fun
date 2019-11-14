@@ -7,11 +7,11 @@
   - [2.3. Submitting your solution](#23-submitting-your-solution)
 
 ## 1. Getting started
-  `github.com/your-github-name/your-repository`
+  `https://github.com/bmuntper/Ping-pong-is-fun.git`
 
 Fork this repo and then `git clone` your forked repo to your computer.
 Once you're happy with your solution, `git push` and submit a pull request at
-`github.com/your-github-name/your-repository`.
+`https://github.com/bmuntper/Ping-pong-is-fun.git`.
 
 ## 2. Challenge
 
@@ -35,6 +35,7 @@ service("0:0") // => "first"
 service("3:2") // => "second"
 service("21:20") // => "first"
 service("21:22") // => "second"
+service("21:18") // => "finished"
 ```
 
 ### 2.2. Testing your solution
